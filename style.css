@@ -53,4 +53,17 @@ body {
     font-size: 1rem;
   }
 }
+.badge-bar {
+  position: fixed;
+  top: 10px;
+  left: 0;
+  right: 0;
+  text-align: center;
+  z-index: 9999;
+}
 
+.badge-bar img {
+  height: 40px;
+  opacity: 0.9;
+}
+Add badge-bar style
