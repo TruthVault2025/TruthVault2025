@@ -44,15 +44,7 @@ body {
   opacity: 0.85;
 }
 
-/* Responsive */
-@media (max-width: 600px) {
-  .hero h1 {
-    font-size: 2rem;
-  }
-  .hero p {
-    font-size: 1rem;
-  }
-}
+/* Badge bar */
 .badge-bar {
   position: fixed;
   top: 10px;
@@ -66,4 +58,14 @@ body {
   height: 40px;
   opacity: 0.9;
 }
-Add badge-bar style
+
+/* Responsive */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero p {
+    font-size: 1rem;
+  }
+}
+
